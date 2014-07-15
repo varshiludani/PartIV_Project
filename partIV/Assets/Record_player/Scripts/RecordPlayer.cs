@@ -6,7 +6,7 @@ public class RecordPlayer : MonoBehaviour {
 //--------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------
 
-    public bool recordPlayerActive = false;
+    public static bool recordPlayerActive;
 
     GameObject disc;
     GameObject arm;
@@ -33,6 +33,7 @@ void Start()
     armAngle = 0.0f;
     discAngle = 0.0f;
     discSpeed = 0.0f;
+	recordPlayerActive = false;
 }
 //--------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------

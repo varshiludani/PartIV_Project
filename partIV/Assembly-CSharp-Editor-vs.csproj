@@ -48,17 +48,15 @@
   <ItemGroup>
      <Compile Include="Assets\LeapMotion\Editor\HandControllerEditor.cs" />
      <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-Basic.shader" />
-     <None Include="Assets\LeapMotion\readme.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\City\Standard Assets\Water\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\City\Shaders\AlphaTest-DiffuseDoubleSide.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
- </Reference>
- <Reference Include="Assembly-UnityScript">
- <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="LeapCSharp.NET3.5">
  <HintPath>Assets\LeapCSharp.NET3.5.dll</HintPath>

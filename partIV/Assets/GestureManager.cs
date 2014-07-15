@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-using Leap; 
+using Leap;
 
 public class GestureManager : MonoBehaviour {
 	Controller controller;
@@ -70,8 +70,13 @@ public class GestureManager : MonoBehaviour {
 				if (!audio.isPlaying)
 				{
 					audio.Play();
+					RecordPlayer.recordPlayerActive = true;
 				}
-				else audio.Pause();
+				else 
+				{
+					audio.Pause();
+					RecordPlayer.recordPlayerActive = false;
+				}
 			}
 		}
 		
