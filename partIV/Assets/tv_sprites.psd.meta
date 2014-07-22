@@ -1,0 +1,540 @@
+fileFormatVersion: 2
+guid: 9e1fd8f434b2e204197a40d3ac817743
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: tv_sprites_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2210
+        width: 220
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_1
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1781
+        width: 220
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_2
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1351
+        width: 220
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_3
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 920
+        width: 222
+        height: 153
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_4
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 491
+        width: 219
+        height: 153
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_5
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 62
+        width: 222
+        height: 153
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 62
+        width: 222
+        height: 153
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_7
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 62
+        width: 222
+        height: 153
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_8
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 63
+        width: 220
+        height: 152
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_9
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 2209
+        width: 220
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_10
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2210
+        width: 220
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_11
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 2210
+        width: 220
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_12
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 2209
+        width: 220
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_13
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1993
+        width: 220
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_14
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1995
+        width: 220
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1994
+        width: 220
+        height: 151
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_16
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1995
+        width: 220
+        height: 151
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_17
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1995
+        width: 219
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1783
+        width: 219
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_19
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1781
+        width: 221
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_20
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1782
+        width: 220
+        height: 151
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_21
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1782
+        width: 220
+        height: 151
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_22
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1567
+        width: 220
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_23
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1567
+        width: 221
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_24
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1566
+        width: 220
+        height: 151
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_25
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1565
+        width: 220
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_26
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 1565
+        width: 220
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_27
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1351
+        width: 220
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_28
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1349
+        width: 219
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_29
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1350
+        width: 220
+        height: 152
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_30
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1351
+        width: 220
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_31
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1135
+        width: 220
+        height: 153
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_32
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1136
+        width: 220
+        height: 151
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_33
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1135
+        width: 222
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_34
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1136
+        width: 220
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_35
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 1136
+        width: 220
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_36
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 921
+        width: 222
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_37
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 923
+        width: 220
+        height: 149
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_38
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 921
+        width: 220
+        height: 152
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_39
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 922
+        width: 217
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_40
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 706
+        width: 220
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_41
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 706
+        width: 220
+        height: 151
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_42
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 707
+        width: 219
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_43
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 706
+        width: 220
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_44
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 707
+        width: 220
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_45
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 491
+        width: 220
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_46
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 494
+        width: 220
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_47
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 491
+        width: 220
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_48
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 493
+        width: 220
+        height: 151
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_49
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 278
+        width: 220
+        height: 151
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_50
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 277
+        width: 223
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_51
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 276
+        width: 220
+        height: 152
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_52
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 277
+        width: 221
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_53
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 279
+        width: 220
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tv_sprites_54
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 64
+        width: 221
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 

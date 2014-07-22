@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-using Leap; 
+using Leap;
 
 public class GestureManager : MonoBehaviour {
 	Controller controller;
@@ -9,6 +9,8 @@ public class GestureManager : MonoBehaviour {
 	float max_pl2Intensity = 01.5f;	
 	float max_dlIntensity = 0.53f;
 	int grabCount = 0;
+	int grabCount2 = 0;
+	bool isTVplaying = false;
 	
 	void Start ()
 	{
@@ -32,6 +34,7 @@ public class GestureManager : MonoBehaviour {
 		int rightFingers_check = 0;
 		int leftFingers_check = 0;
 		bool grab = false;
+		bool grab2 = false;
 
 		foreach (Hand hand in frame.Hands)
 		{
@@ -45,6 +48,12 @@ public class GestureManager : MonoBehaviour {
 				{
 					if((finger.IsExtended)) rightFingers_check++;
 				}
+				if (hand.GrabStrength == 1.0f)
+				{
+					grab2 = true;
+					break;
+				}
+				else grab2 = false;
 			}
 			else if(hand.IsLeft)
 			{
@@ -70,8 +79,32 @@ public class GestureManager : MonoBehaviour {
 				if (!audio.isPlaying)
 				{
 					audio.Play();
+					RecordPlayer.recordPlayerActive = true;
 				}
-				else audio.Pause();
+				else 
+				{
+					audio.Pause();
+					RecordPlayer.recordPlayerActive = false;
+				}
+			}
+		}
+
+		if (grab2)
+		{
+			grabCount2 = grabCount2 + 1;
+			if (grabCount2 >= 100)
+			{
+				grabCount2 = 0;
+				if (!isTVplaying)
+				{
+					TVanim.set_tvOn = true;
+					isTVplaying = true;
+				}
+				else 
+				{
+					TVanim.set_tvOn = false;
+					isTVplaying = false;
+				}
 			}
 		}
 		
@@ -172,12 +205,13 @@ public class GestureManager : MonoBehaviour {
 					if(swipe.Direction.x > 0)
 					{
 						Debug.Log("Right");
-
+//						TVanim.set_tvOn = true;
 					}
 					else
 					{
 						Debug.Log("Left");
-					}
+//						TVanim.set_tvOn = false;
+					}	
 				}
 				else 
 				{ //vertical
@@ -194,6 +228,7 @@ public class GestureManager : MonoBehaviour {
 				
 			case Gesture.GestureType.TYPE_KEY_TAP:
 				KeyTapGesture keytap = new KeyTapGesture (gesture);
+				Debug.Log("Key Tap");
 				//				SafeWriteLine ("  Tap id: " + keytap.Id
 				//				               + ", " + keytap.State
 				//				               + ", position: " + keytap.Position
@@ -202,6 +237,7 @@ public class GestureManager : MonoBehaviour {
 				
 			case Gesture.GestureType.TYPE_SCREEN_TAP:
 				ScreenTapGesture screentap = new ScreenTapGesture (gesture);
+				Debug.Log("Screen Tap");
 				//				SafeWriteLine ("  Tap id: " + screentap.Id
 				//				               + ", " + screentap.State
 				//				               + ", position: " + screentap.Position

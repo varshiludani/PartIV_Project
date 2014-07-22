@@ -46,9 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CloudSystem\Instractions\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
-     <Compile Include="Assets\CloudSystem\Instractions\Standard Assets\Scripts\Utility Scripts\CombineChildren.cs" />
-     <Compile Include="Assets\CloudSystem\Instractions\Standard Assets\Scripts\Utility Scripts\MeshCombineUtility.cs" />
+     <Compile Include="Assets\City\Standard Assets\Water\Sources\Scripts\Water.cs" />
      <Compile Include="Assets\GestureManager.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\DemoScripts\CubeWave.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\HandController.cs" />
@@ -66,13 +64,15 @@
      <Compile Include="Assets\LeapMotion\Scripts\Utils\LeapUnityExtensions.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\Utils\MagneticPinch.cs" />
      <Compile Include="Assets\Record_player\Scripts\RecordPlayer.cs" />
+     <Compile Include="Assets\TVanim.cs" />
      <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-Basic.shader" />
-     <None Include="Assets\LeapMotion\readme.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\City\Standard Assets\Water\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\City\Shaders\AlphaTest-DiffuseDoubleSide.shader" />
  <Reference Include="LeapCSharp.NET3.5">
  <HintPath>Assets\LeapCSharp.NET3.5.dll</HintPath>
  </Reference>
