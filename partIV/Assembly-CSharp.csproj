@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\City\Standard Assets\Water\Sources\Scripts\Water.cs" />
-     <Compile Include="Assets\GestureManager.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\DemoScripts\CubeWave.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\HandController.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\Hands\FingerModel.cs" />
@@ -63,12 +62,14 @@
      <Compile Include="Assets\LeapMotion\Scripts\Utils\ConfidenceTransparency.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\Utils\LeapUnityExtensions.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\Utils\MagneticPinch.cs" />
-     <Compile Include="Assets\Record_player\Scripts\RecordPlayer.cs" />
-     <Compile Include="Assets\TVanim.cs" />
+     <Compile Include="Assets\Scripts\BlindControl.cs" />
+     <Compile Include="Assets\Scripts\GestureManager.cs" />
+     <Compile Include="Assets\Scripts\RecordPlayer.cs" />
+     <Compile Include="Assets\Scripts\TVanim.cs" />
+     <Compile Include="Assets\Scripts\WindowControl.cs" />
      <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-Basic.shader" />
-     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\City\Skyboxes\_skybox info.txt" />
      <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-BasicOutline.shader" />
-     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-Lighted.shader" />
      <None Include="Assets\City\Standard Assets\Water\Sources\Shaders\FX-Water.shader" />
@@ -76,12 +77,6 @@
  <Reference Include="LeapCSharp.NET3.5">
  <HintPath>Assets\LeapCSharp.NET3.5.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{10C31608-11BD-BD05-53F6-40C5D9AA4C89}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{A33F47A3-3A5C-8836-32ED-AF8FD1012DE3}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
